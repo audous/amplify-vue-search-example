@@ -13,6 +13,8 @@ export const createBook = /* GraphQL */ `
       price
       description
       releaseDate
+      createdAt
+      updatedAt
     }
   }
 `;
@@ -28,6 +30,8 @@ export const updateBook = /* GraphQL */ `
       price
       description
       releaseDate
+      createdAt
+      updatedAt
     }
   }
 `;
@@ -43,6 +47,8 @@ export const deleteBook = /* GraphQL */ `
       price
       description
       releaseDate
+      createdAt
+      updatedAt
     }
   }
 `;

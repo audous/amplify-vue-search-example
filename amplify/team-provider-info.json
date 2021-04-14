@@ -1,1 +1,26 @@
-{}
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyvuesearchexam-dev-133113-authRole",
+      "UnauthRoleArn": "arn:aws:iam::740591640614:role/amplify-amplifyvuesearchexam-dev-133113-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::740591640614:role/amplify-amplifyvuesearchexam-dev-133113-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifyvuesearchexam-dev-133113-deployment",
+      "UnauthRoleName": "amplify-amplifyvuesearchexam-dev-133113-unauthRole",
+      "StackName": "amplify-amplifyvuesearchexam-dev-133113",
+      "StackId": "arn:aws:cloudformation:us-east-1:740591640614:stack/amplify-amplifyvuesearchexam-dev-133113/36b284c0-9d47-11eb-a486-0a374cd00e27",
+      "AmplifyAppId": "d2cgz5gnri1mfc"
+    },
+    "categories": {
+      "auth": {
+        "amplifyvuesearchexam21160aeb": {}
+      },
+      "function": {
+        "booksearchrest": {
+          "deploymentBucketName": "amplify-amplifyvuesearchexam-dev-133113-deployment",
+          "s3Key": "amplify-builds/booksearchrest-55797a46364e71623855-build.zip"
+        }
+      }
+    }
+  }
+}

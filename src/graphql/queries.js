@@ -10,6 +10,8 @@ export const getBook = /* GraphQL */ `
       price
       description
       releaseDate
+      createdAt
+      updatedAt
     }
   }
 `;
@@ -27,6 +29,8 @@ export const listBooks = /* GraphQL */ `
         price
         description
         releaseDate
+        createdAt
+        updatedAt
       }
       nextToken
     }
@@ -38,12 +42,14 @@ export const searchBooks = /* GraphQL */ `
     $sort: SearchableBookSortInput
     $limit: Int
     $nextToken: String
+    $from: Int
   ) {
     searchBooks(
       filter: $filter
       sort: $sort
       limit: $limit
       nextToken: $nextToken
+      from: $from
     ) {
       items {
         id
@@ -52,6 +58,8 @@ export const searchBooks = /* GraphQL */ `
         price
         description
         releaseDate
+        createdAt
+        updatedAt
       }
       nextToken
       total

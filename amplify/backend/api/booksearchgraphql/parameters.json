@@ -1,11 +1,11 @@
 {
-    "AppSyncApiName": "booksearchgraphql",
-    "DynamoDBBillingMode": "PAY_PER_REQUEST",
-    "DynamoDBEnableServerSideEncryption": "false",
-    "AuthCognitoUserPoolId": {
-        "Fn::GetAtt": [
-            "authamplifyvuesearchexam21160aeb",
-            "Outputs.UserPoolId"
-        ]
-    }
+  "AppSyncApiName": "booksearchgraphql",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": "false",
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authamplifyvuesearchexam21160aeb",
+      "Outputs.UserPoolId"
+    ]
+  }
 }
