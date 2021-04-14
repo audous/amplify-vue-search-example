@@ -41,7 +41,7 @@ export default {
       API.put("booksearchrest", "/book", param)
         .then(() => {
           this.snackbar = true;
-          this.snackbarText = "success to register book!";
+          this.snackbarText = "success to register Sharps Story!";
         })
         .catch(e => {
           this.snackbar = true;

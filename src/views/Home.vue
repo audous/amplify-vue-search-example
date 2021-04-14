@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-navigation-drawer app dark clipped>
+    <v-navigation-drawer app dark>
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title">Search Books App</v-list-item-title>
@@ -44,9 +44,9 @@
         </div>
       </template>
     </v-navigation-drawer>
-    <v-app-bar dark app clipped-left>
+    <v-app-bar dark app clipped-right>
       <v-toolbar-title>
-        <router-link to="/" class="toolbar_title">Amplify Data Search Sample</router-link>
+        <router-link to="/" class="toolbar_title">Amplify Data Search Sample for Sharps Rankings Demo Only</router-link>
       </v-toolbar-title>
     </v-app-bar>
     <v-main>

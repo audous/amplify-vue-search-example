@@ -43,7 +43,7 @@ export default {
       )
         .then(() => {
           this.snackbar = true;
-          this.snackbarText = "Succeeded to register the book! ";
+          this.snackbarText = "Succeeded to register the Sharps Story! ";
         })
         .catch(e => {
           this.snackbar = true;

@@ -3,7 +3,7 @@
     <v-card class="mx-auto" style="padding: 15px" outlined>
       <v-form>
         <v-container>
-          <h3>Search Books</h3>
+          <h3>Search Sharps</h3>
           <v-divider />
           <v-row>
             <v-col cols="12" md="12">
@@ -12,7 +12,7 @@
           </v-row>
           <v-row>
             <v-col cols="12" md="12">
-              <v-text-field v-model="form.author" label="Author"></v-text-field>
+              <v-text-field v-model="form.author" label="Sharp">Sharp</v-text-field>
             </v-col>
           </v-row>
           <v-row>
