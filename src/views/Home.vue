@@ -49,9 +49,9 @@
         <router-link to="/" class="toolbar_title">Amplify Data Search Sample</router-link>
       </v-toolbar-title>
     </v-app-bar>
-    <v-content>
+    <v-main>
       <router-view />
-    </v-content>
+    </v-main>
   </div>
 </template>
 
