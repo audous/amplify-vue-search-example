@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row justify="center" align="center" style="margin: 50px;">
-      <h1>Welcome Search Sharps Sample!</h1>
+      <h1>Welcome Search Sharps Sample! ok</h1>
     </v-row>
   </v-container>
 </template>
